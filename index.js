@@ -18,7 +18,7 @@ function deepestChild(){
   var parent = document.getElementById('grand-node')
   var previousElement = parent
   var currentElement = parent.querySelector('div')
-  while(child !== null){
+  while(currentElement !== null){
     previousElement = currentElement
     currentElement = currentElement.querySelector('div')
   }
