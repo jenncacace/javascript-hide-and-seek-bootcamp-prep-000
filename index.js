@@ -22,5 +22,5 @@ function deepestChild(){
     previousElement = currentElement
     currentElement = currentElement.querySelector('div')
   }
-  return previousElement.innerHTML
+  return previousElement
 }
