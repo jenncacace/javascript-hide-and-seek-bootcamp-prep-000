@@ -13,8 +13,9 @@ function increaseRankBy(n){
     lis[i].innerHTML = (parseInt(lis[i].innerHTML,10) + n).toString()
   }
 }
-var parent = document.getElementById('grand-node').querySelector('div')
+
 function deepestChild(){
+  var parent = document.getElementById('grand-node')
   var previousElement = parent
   var currentElement = parent.querySelector('div')
   while(child !== null){
